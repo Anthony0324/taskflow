@@ -5,7 +5,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/usuario/taskflow)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-Aplicación sencilla para administrar tareas de un equipo[cite: 1].
+Aplicación sencilla para administrar tareas 
 
 ## Tabla de contenidos
 - [Descripción](#descripción)
