@@ -1,61 +1,78 @@
 # TaskFlow
 
-![GitHub last commit](https://img.shields.io/github/last-commit/usuario/taskflow)[cite: 5]
-![GitHub issues](https://img.shields.io/github/issues/usuario/taskflow)[cite: 5]
-![GitHub stars](https://img.shields.io/github/stars/usuario/taskflow)[cite: 5]
+![GitHub last commit](https://img.shields.io/github/last-commit/usuario/taskflow)
+![GitHub issues](https://img.shields.io/github/issues/usuario/taskflow)
+![GitHub stars](https://img.shields.io/github/stars/usuario/taskflow)
 
-Aplicación para administrar tareas.[cite: 5]
+Aplicación para administrar tareas.
 
 ## Tabla de contenidos
-- [Descripción](#descripción)[cite: 5]
-- [Funcionalidades](#funcionalidades)[cite: 5]
-- [Tecnologías](#tecnologías)[cite: 5]
-- [Instalación](#instalación)[cite: 5]
-- [Uso](#uso)[cite: 5]
-- [Contribuidores](#contribuidores)[cite: 5]
+
+- [Descripción](#descripción)
+- [Funcionalidades](#funcionalidades)
+- [Tecnologías](#tecnologías)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Capturas de pantalla](#capturas-de-pantalla)
+- [Arquitectura](#arquitectura)
+- [Contribuidores](#contribuidores)
 
 ## Descripción
-Aplicación sencilla para administrar tareas de un equipo.[cite: 5]
+TaskFlow es una aplicación diseñada para facilitar la administración de tareas dentro de un equipo, optimizando el seguimiento de las actividades diarias.
 
 ## Funcionalidades
-- [x] Registrar tareas[cite: 5]
-- [x] Editar tareas[cite: 5]
-- [ ] Eliminar tareas[cite: 5]
-- [ ] Asignar tareas a usuarios[cite: 5]
+
+- [x] Registrar tareas
+- [x] Editar tareas
+- [ ] Eliminar tareas
+- [ ] Asignar tareas a usuarios
 
 ## Tecnologías
-- Frontend
-- API
-- MySQL
+
+* HTML, CSS, JavaScript
+* Backend API
+* Base de datos MySQL
 
 ## Requisitos
-- Base de datos configurada.
-- Entorno de ejecución de código.
+
+* Navegador web moderno
+* Entorno de ejecución para el Backend
+* Gestor de base de datos relacional
 
 ## Instalación
-1. Clonar el repositorio.[cite: 5]
-2. Configurar la base de datos.[cite: 5]
-3. Configurar las variables necesarias.[cite: 5]
-4. Ejecutar la aplicación.[cite: 5]
+
+1. Clonar el repositorio.
+2. Configurar la base de datos.
+3. Configurar las variables necesarias.
+4. Ejecutar la aplicación.
+
+## Uso
+Inicia sesión en la plataforma y utiliza el panel principal para gestionar y dar seguimiento a las tareas del equipo.
 
 ## Capturas de pantalla
+
 ### Pantalla principal
-![Pantalla principal](docs/img/inicio.png)[cite: 5]
+![Pantalla principal](docs/img/inicio.png)
+
+### Pantalla de registro o inicio de sesión
+![Login](docs/img/login.png)
 
 ### Gestión de tareas
-![Gestión de tareas](docs/img/tareas.png)[cite: 5]
+![Gestión de tareas](docs/img/tareas.png)
 
 ## Arquitectura
-La aplicación está organizada en diferentes componentes que permiten gestionar
-la interacción con el usuario, la autenticación, el acceso a datos y el registro
-de actividades.[cite: 5]
+La aplicación está organizada en diferentes componentes que permiten gestionar la interacción con el usuario, la autenticación, el acceso a datos y el registro de actividades.
 
 ```mermaid
 flowchart LR
-    U[Usuario] --> F[Frontend][cite: 5]
-    F --> API[API][cite: 5]
-    API --> AUTH[Autenticación][cite: 5]
-    API --> DAO[DAO][cite: 5]
-    DAO --> DB[(MySQL)][cite: 5]
-    API --> LOG[Registro de actividad][cite: 5]
+    U[Usuario] --> F[Frontend]
+    F --> API[API]
+    API --> AUTH[Autenticación]
+    API --> DAO[DAO]
+    DAO --> DB[(MySQL)]
+    API --> LOG[Registro de actividad]
 ```
+
+## Contribuidores
+- Equipo de Desarrollo de TaskFlow
